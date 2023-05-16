@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import Loading from './Loading';
+import Loading from './components/Loading';
 import logo from './logo.svg';
 import './App.css';
 
