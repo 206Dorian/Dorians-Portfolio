@@ -1,3 +1,15 @@
+:root {
+  --sunsetPink: #d5978e;
+  --deepBlue: #003c53;
+  --deepPurple: #5b116f;
+  --greenBlue: #2364aa;
+  --liteBlue: #3da5d9;
+  --lavendar: #b187c5;
+  --verdigris: #73bfb8;
+  --orange: #e87a51;
+  
+}
+
 .App {
   text-align: center;
 }
