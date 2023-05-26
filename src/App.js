@@ -2,8 +2,12 @@ import React, { useState, useEffect } from 'react';
 import Loading from './components/Loading';
 import logo from './assets/logo.jpg';
 import './App.css';
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+
 
 function App() {
+  
+
   const [isLoading, setIsLoading] = useState(true);
 
   useEffect(() => {
@@ -14,6 +18,7 @@ function App() {
   }, []);
 
   return (
+    <Router>
     <div className="App">
       {isLoading ? (
         <Loading />
@@ -21,8 +26,7 @@ function App() {
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
           <br></br>
-          <br></br>
-          <br></br>
+          
           <p>
             Please enjoy this dog with a muffin, defying gravity while we update this site!
           </p>
@@ -37,6 +41,7 @@ function App() {
         </header>
       )}
     </div>
+    </Router>
   );
 }
 
