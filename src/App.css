@@ -1,13 +1,13 @@
 :root {
-  --sunsetPink: #d5978e;
-  --deepBlue: #003c53;
-  --deepPurple: #5b116f;
-  --greenBlue: #2364aa;
-  --liteBlue: #3da5d9;
-  --lavendar: #b187c5;
-  --verdigris: #73bfb8;
-  --orange: #e87a51;
-  
+  --midnight: #09434C;
+  --trueTeal: #19454C;
+  --greenBlue: #295958;
+  --dorianGrey: #48484A;
+  --lime: #BFFF00;
+  --chartreuse: #DFFF00;
+  --satinGold: #B29C40;
+  --black: #000000;
+  --white: #FFFFFF;
 }
 
 .App {
@@ -44,6 +44,7 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
