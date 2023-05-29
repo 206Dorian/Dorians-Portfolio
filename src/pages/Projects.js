@@ -7,7 +7,7 @@ import { css } from '@emotion/react'
 
 // render(<btn>This my button component.</btn>)
 
-const Workout = () => {
+const Projects = () => {
   return (
     <>
 
