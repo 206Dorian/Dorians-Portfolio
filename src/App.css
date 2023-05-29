@@ -2,7 +2,7 @@
   --midnight: #09434C;
   --trueTeal: #19454C;
   --greenBlue: #295958;
-  --dorianGrey: #48484A;
+  --dorianGrey: #666667;
   --lime: #BFFF00;
   --chartreuse: #DFFF00;
   --mossGreen: #9C944B;
@@ -11,10 +11,18 @@
   --white: #FFFFFF;
 }
 
+.silver {
+  color: #C0C0C0; /* Hexadecimal value for silver */
+}
+
+.metallic {
+  color: #D3D3D3; /* Hexadecimal value for a lighter metallic shade */
+}
+
 .App {
   text-align: center;
-  color: (var(--midnight));
-  background-color: var(--midnight);
+  color: (var(--greenBlue));
+  background-color: silver;
 }
 
 .App-logo {

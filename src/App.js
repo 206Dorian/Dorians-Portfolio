@@ -28,7 +28,7 @@ function App() {
           <br></br>
           
           <p>
-            Please enjoy this dog with a muffin, defying gravity while we update this site!
+            Please enjoy this dog with a muffin defying gravity while we update this site!
           </p>
           <a
             className="App-link"
@@ -36,11 +36,12 @@ function App() {
             target="_blank"
             rel="noopener noreferrer"
           >
-          Here is my temporary portfolio thay got very messed up, but is still working until I finish this site. 
+          Here is my temporary portfolio that got very messed up, but is still working until I finish this site. 
           </a>
         </header>
       )}
     </div>
+    
     </Router>
   );
 }
