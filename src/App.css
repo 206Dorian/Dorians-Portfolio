@@ -9,15 +9,20 @@
   --satinGold: #B29C40;
   --black: #000000;
   --white: #FFFFFF;
+  
+  --silver: #C0C0C0; /* Hexadecimal value for silver */
+  --metallic: #D3D3D3; /* Hexadecimal value for a lighter metallic shade */
 }
 
-.silver {
-  color: #C0C0C0; /* Hexadecimal value for silver */
+/* Usage example */
+.element {
+  color: var(--silver); /* Using the silver color variable */
 }
 
-.metallic {
-  color: #D3D3D3; /* Hexadecimal value for a lighter metallic shade */
+.another-element {
+  color: var(--metallic); /* Using the metallic color variable */
 }
+
 
 .App {
   text-align: center;
