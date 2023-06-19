@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import LoadingImage from './assets/loading.gif';
+import LoadingImage from './assets/logo.jpg';
 import './App.css';
 import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
 

@@ -10,9 +10,7 @@ import { css } from '@emotion/react'
 const Projects = () => {
   return (
     <>
-
-      
-      <h2>MY WORKOUTS
+            <h2>MY WORKOUTS
 
 <li> <a> ARMS </a></li>
 <br />
@@ -22,8 +20,6 @@ const Projects = () => {
 
 <li><a> CHEST </a></li>
 </h2>
-
-
 
       </>
   )
