@@ -11,23 +11,14 @@
 
 }
 
-/* Usage example */
-.element {
-  color: var(--silver);
-  /* Using the silver color variable */
-}
 
-.another-element {
-  color: var(--metallic);
-  /* Using the metallic color variable */
-}
 
 .App {
   text-align: center;
-  color: (var(--greenBlue));
-  background-color: silver;
+  color: (var(--auqa));
+  background-color:var(--trueTeal) 
 }
-
+  
 .App-logo {
   height: 40vmin;
   pointer-events: none;

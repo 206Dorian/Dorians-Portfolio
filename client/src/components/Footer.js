@@ -5,9 +5,7 @@ const Footer = () => {
   return (
     <div>
       <footer className="footer">
-        <br></br>
-        Thanks for taking the time to answer some questions.
-        <br/>
+       
         If you like this app and want to give me a job, <br/> here are my links!
         <br/><br/>
         <a href="https://github.com/206Dorian"> Github</a>

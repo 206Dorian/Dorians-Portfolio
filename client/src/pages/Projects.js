@@ -1,28 +1,21 @@
 import React from 'react'
-import { css } from '@emotion/react'
-
-// const Button = styled.button`
-//   color: turquoise;
-// `
-
-// render(<btn>This my button component.</btn>)
 
 const Projects = () => {
   return (
     <>
-            <h2>MY WORKOUTS
+            <h2>MY PROJECTS
 
-<li> <a> ARMS </a></li>
+<li> <a> A </a></li>
 <br />
 
-<li> <a> BACK </a></li>
+<li> <a> B </a></li>
 <br />
 
-<li><a> CHEST </a></li>
+<li><a> C </a></li>
 </h2>
 
       </>
   )
 }
 
-export default Workout
+export default Projects
