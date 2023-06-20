@@ -15,7 +15,7 @@
 
 .App {
   text-align: center;
-  color: (var(--auqa));
+  color: var(--auqa);
   background-color:var(--trueTeal) 
 }
   

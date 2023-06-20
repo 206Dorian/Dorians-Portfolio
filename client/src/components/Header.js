@@ -1,12 +1,12 @@
-import React from 'react'
+import React from 'react';
+import './Header.css';
 
 const Header = () => {
-  return (
-    <>
-      <h1> Dorian's Portfolio </h1>
-
-    </>
-  )
+    return (
+        <header>
+            <h1>Welcome to My Portfolio</h1>
+        </header>
+    );
 }
 
-export default Header
+export default Header;
