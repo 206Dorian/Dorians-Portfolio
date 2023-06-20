@@ -1,29 +1,25 @@
-import React from 'react'
-import "./Footer.css"
-// const Button = styled.button`
-//   padding: 32px;
-//   background-color: hotpink;
-//   font-size: 24px;
-//   border-radius: 4px;
-//   color: black;
-//   font-weight: bold;
-//   &:hover {
-//     color: white;
-//   }
-// `
+import React from 'react';
+import './Footer.css';
+
 const Footer = () => {
   return (
-    <>
-      <h3 className="foot-header"><p>We hope this *Lifted* your spirits</p>
-        <h5>Send us some love by
-        tipping us <a href="https://buy.stripe.com/dR617567dgOcgog7st" target="_blank" rel="noopener noreferrer" className='tip-btn'>here!</a></h5>
-        {/* <br></br> */}
-      </h3>
-      <a href="https://climate.stripe.com/S2RQQU" target="_blank" rel="noopener noreferrer" className='carbon-btn'>Didactic Lift supports the environment!
-      </a>
-        {/* Link for redirecting users to go give us moneys: https://buy.stripe.com/dR617567dgOcgog7st */}
-        {/* link for shameless carbon-offset plug: https://climate.stripe.com/S2RQQU */}
-    </>
+    <div>
+      <footer className="footer">
+        <br></br>
+        Thanks for taking the time to answer some questions.
+        <br/>
+        If you like this app and want to give me a job, <br/> here are my links!
+        <br/><br/>
+        <a href="https://github.com/206Dorian"> Github</a>
+        <br/>
+        <a href="https://www.linkedin.com/in/dorian-douglas-birch-70695b4b/">LinkedIn</a>
+        <br/>
+        <a href="https://206dorian.github.io/dorian-portfolio/">Portfolio</a>
+        <br></br>
+        <br/>
+      </footer>
+    </div>
   )
 }
-export default Footer
+
+export default Footer;

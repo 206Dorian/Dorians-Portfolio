@@ -1,16 +1,14 @@
 :root {
-  --midnight: #05424E;
   --trueTeal: #064956;
+  --gulfCoast: #3C8E9D;
+  --auqa: #4FC7CC;
   --outerSpace: #454A4B;
-  --greenBlue: #295958;
-  --dorianGrey: #525F60;
-    --chartreuse: #DFFF00;
-  --mossGreen: #838A41;
-  --satinGold: #BBA846;
+  --dorianGrey: #99A0A9;
+  --chartreuse: #DFFF00;
+  --teaGreen: #C1D2A0;
   --black: #000000;
   --white: #FFFFFF;
-  --silver: #C0C0C0;
-  --metallic: #D3D3D3;
+
 }
 
 /* Usage example */
