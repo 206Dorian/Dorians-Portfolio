@@ -1,6 +1,7 @@
 .footer {
   background-color: var(--chartreuse);
   width: 90%;  /* set width to 100% */
+  
   text-align: center;
   color: var(--gulfCoast);
   border-radius: .5rem;
@@ -10,6 +11,8 @@
   font-size: 25px;
   margin-top: 10px;
   margin-bottom: 0px;
+  margin: auto;
+  
   font-family: 'Alegreya Sans SC', sans-serif;
 }
 
