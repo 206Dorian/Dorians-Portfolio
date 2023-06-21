@@ -2,8 +2,9 @@ import React, { useState, useEffect } from 'react';
 import LoadingImage from './assets/logo.jpg';
 import './App.css';
 import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';
-import HomePage from './pages/Home';
-import ProjectsPage from './pages/Projects';
+import HomePage from './pages/HomePage';
+import PortfolioPage from './pages/PortfolioPage';
+
 
 function App() {
   const [isLoading, setIsLoading] = useState(true);
@@ -25,11 +26,11 @@ function App() {
         ) : (
 
           <Routes>
-            <Route path="/projects" element={<ProjectsPage />} />
-            <Route path="/" element={<HomePage />} />
-            <Route path="/Dorians-Portfolio" element={<HomePage />} />
-          </Routes>
-
+          <Route path="/portfolio" element={<PortfolioPage />} />
+          <Route path="/" element={<HomePage />} />
+          <Route path="/Dorians-Portfolio" element={<HomePage />} />
+        </Routes>
+        
 
         )}
       </div>
