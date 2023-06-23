@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Projects = () => {
+const PortfolioPage = () => {
   return (
     <>
             <h2>MY PROJECTS
@@ -18,4 +18,4 @@ const Projects = () => {
   )
 }
 
-export default Projects
+export default PortfolioPage
