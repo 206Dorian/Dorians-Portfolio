@@ -11,6 +11,7 @@
 
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans+Semi+Condensed&display=swap');
 
 
 .App {
@@ -56,4 +57,8 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+body {
+  font-family: 'Encode Sans Semi Condensed', sans-serif;
 }
