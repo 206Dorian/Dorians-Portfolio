@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import LoadingImage from './assets/logo.jpg';
+// import LoadingImage from './assets/logo.jpg';
 import './App.css';
 import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';
 import HomePage from './pages/HomePage';
@@ -21,7 +21,7 @@ function App() {
       <div className="App">
         {isLoading ? (
           <div className="loading-container">
-            <img src={LoadingImage} className="loading-image" alt="Loading" />
+            {/* <img src={LoadingImage} className="loading-image" alt="Loading" /> */}
           </div>
         ) : (
 
