@@ -1,15 +1,18 @@
 import React, { useState, useEffect } from 'react';
 // import LoadingImage from './assets/logo.jpg';
+
+
 import './App.css';
 import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';
 import HomePage from './pages/HomePage';
 import PortfolioPage from './pages/PortfolioPage';
-import ProjectA from './pages/ProjectA';
-import ProjectB from './pages/ProjectB';
-import ProjectC from './pages/ProjectC';
-import ProjectD from './pages/ProjectD';
-import ProjectE from './pages/ProjectE';
-import ProjectF from './pages/ProjectF';
+import ArtCart from './pages/projects/ArtCart';
+import DidacticLift from './pages/projects/DidacticLift';
+import My100 from './pages/projects/My100';
+import TallTalk from './pages/projects/TallTalk';
+import WeatherDisco from './pages/projects/WeatherDisco';
+import WeiFull from './pages/projects/WeiFull';
+
 
 
 function App() {
@@ -32,17 +35,17 @@ function App() {
         ) : (
 
           <Routes>
-          <Route path="/" element={<HomePage />} />
-          <Route path="/Dorians-Portfolio" element={<HomePage />} />
-          <Route path="/portfolio" element={<PortfolioPage />} />
-          <Route path="/portfolio/project-a" element={<ProjectA />} />
-          <Route path="/portfolio/project-b" element={<ProjectB />} />
-          <Route path="/portfolio/project-c" element={<ProjectC />} />
-          <Route path="/portfolio/project-d" element={<ProjectD />} />
-          <Route path="/portfolio/project-e" element={<ProjectE />} />
-          <Route path="/portfolio/project-f" element={<ProjectF />} />
-        </Routes>
-        
+            <Route path="/" element={<HomePage />} />
+            <Route path="/Dorians-Portfolio" element={<HomePage />} />
+            <Route path="/portfolio/art-cart" element={<ArtCart />} />
+            <Route path="/portfolio/didactic-lift" element={<DidacticLift />} />
+            <Route path="/portfolio/my100" element={<My100 />} />
+            <Route path="/portfolio/tall-talk" element={<TallTalk />} />
+            <Route path="/portfolio/weather-disco" element={<WeatherDisco />} />
+            <Route path="/portfolio/wei-full" element={<WeiFull />} />
+
+          </Routes>
+
 
         )}
       </div>
