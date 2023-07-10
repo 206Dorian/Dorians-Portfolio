@@ -8,7 +8,7 @@ const My100 = () => {
         
       </a>
 
-      My100
+      My 100 Placeholder
     </h3>
 
     </>
