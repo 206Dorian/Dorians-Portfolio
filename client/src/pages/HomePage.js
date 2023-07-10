@@ -8,6 +8,7 @@ const HomePage = () => {
         <div>
             <Header />
             <Projects />
+            <br></br>
             <Footer />
         </div>
     );

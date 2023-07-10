@@ -1,28 +1,29 @@
 import React from 'react'
-import { Link } from 'react-router-dom';
+
 import ArtCart from './projects/ArtCart';
 import DidacticLift from './projects/DidacticLift';
-import WeiFull from './projects/WeiFull'
+import My100 from './projects/My100';
+import TallTalk from './projects/TallTalk';
 import WeatherDisco from './projects/WeatherDisco';
-
+import WeiFull from './projects/WeiFull'
 
 const PortfolioPage = () => {
   return (
     <div>
         <h2>MY PROJECTS</h2>
-        <ul>
-        <li><WeiFull/></li>
+        
+        <WeiFull/>
         <br />
-        <li><WeatherDisco/></li>
+        <WeatherDisco/>
         <br />
-        <li><Link to="/projects/TallTalk">TallTalk</Link></li>
+        <TallTalk/>
         <br />
-        <li><Link to="/projects/My100">My100</Link></li>
+        <My100/>
         <br />
-        <li><DidacticLift/></li>
+        <DidacticLift/>
         <br />
-        <li><ArtCart/></li>
-      </ul>
+        <ArtCart/>
+      
         <h2>MY RESUME</h2>
         <a href="/assets/DorianResume.pdf" target="_blank" rel="noreferrer">View my resume</a>
 

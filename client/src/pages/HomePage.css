@@ -21,7 +21,7 @@
   .App {
     text-align: center;
     color: var(--auqa);
-    background-color:var(--trueTeal) 
+    background-color:var(--dorianGrey) 
   }
     
   .App-logo {
@@ -43,7 +43,7 @@
     align-items: center;
     justify-content: center;
     font-size: calc(10px + 2vmin);
-    color: (var(--trueTeal));
+    color: var(--dorianGrey);
   }
   
   /* .App-link {
