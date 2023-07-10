@@ -2,7 +2,16 @@ import React from 'react'
 
 const My100 = () => {
   return (
-    <div>My100</div>
+    <>
+    <h3>
+    <a href="" target="_blank" rel="noreferrer">
+        
+      </a>
+
+      My100
+    </h3>
+
+    </>
   )
 }
 

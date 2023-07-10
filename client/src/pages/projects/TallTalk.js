@@ -2,7 +2,13 @@ import React from 'react'
 
 const TallTalk = () => {
   return (
-    <div>TallTalk</div>
+    <>
+    <h3>
+    <a href="https://206dorian.github.io/Tall-Talk/" target="_blank" rel="noreferrer">
+    TallTalk
+    </a>
+    </h3>
+    </>
   )
 }
 
