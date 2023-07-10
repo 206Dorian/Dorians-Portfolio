@@ -2,7 +2,11 @@ import React from 'react'
 
 const DidacticLift = () => {
   return (
-    <div>DidacticLift</div>
+    <>
+     <a href="https://didactic-lift.herokuapp.com/" target="_blank" rel="noreferrer">
+      Didactic Lift
+      </a>
+    </>
   )
 }
 
