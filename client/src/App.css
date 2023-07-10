@@ -11,12 +11,10 @@
 
 }
 
-
-
 .App {
   text-align: center;
   color: var(--auqa);
-  background-color:var(--trueTeal);
+  background-color:var(--white);
   min-height: 100vh; /* ensures that .App at least takes up the full height of the viewport */
   display: flex; /* enable flexbox for .App */
   flex-direction: column; /* stacks children of .App vertically */
@@ -37,14 +35,14 @@
 }
 
 .App-header {
-  background-color: white;
+  background-color: var(--white);
   flex-grow: 1; /* allow .App-header to take up any remaining space within .App */
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: var(--trueTeal);
+  color: var(--white);
 }
 
 .App-link {

@@ -1,9 +1,14 @@
-import React from 'react'
+import React from 'react';
 
 const ArtCart = () => {
   return (
-    <div>ArtCart</div>
-  )
-}
+    <>
+      <h2>ArtCart</h2>
+      <a href="https://art-cart-gui-guys-production.herokuapp.com/login" target="_blank" rel="noreferrer">
+        Visit ArtCart Website
+      </a>
+    </>
+  );
+};
 
-export default ArtCart
+export default ArtCart;

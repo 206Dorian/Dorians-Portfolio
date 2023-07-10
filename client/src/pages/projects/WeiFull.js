@@ -1,9 +1,17 @@
-import React from 'react'
+import React from 'react';
 
 const WeiFull = () => {
   return (
-    <div>WeiFull</div>
-  )
-}
+    <>
+      <h2>WeiFull</h2>
+      <a href="https://ruxinqu.github.io/wei-full/" target="_blank" rel="noreferrer">
+        Visit Weifull Website
+        </a>
+    </>
+  );
+};
 
-export default WeiFull
+export default WeiFull;
+
+
+
