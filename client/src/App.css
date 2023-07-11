@@ -49,6 +49,11 @@
   color: var(--chartreuse);
 }
 
+a:visited {
+  color: var(--chartreuse); 
+}
+
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);

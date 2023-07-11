@@ -41,7 +41,12 @@
     color: (var(--trueTeal));
   }
   
-  .App-link {
+  a:visited {
+    color: var(--chartreuse); 
+  }
+  
+
+  /* .App-link {
     color: (chartreuse);
   }
   
@@ -53,4 +58,4 @@
     to {
       transform: rotate(360deg);
     }
-  }
+  } */
