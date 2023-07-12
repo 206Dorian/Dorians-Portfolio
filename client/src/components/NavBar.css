@@ -1,7 +1,7 @@
 nav {
     background-color: #333;
     color: #fff;
-    padding: 10px;
+    padding: 20px;
   }
   
   nav ul {
@@ -17,11 +17,18 @@ nav {
   }
   
   nav a {
-    text-decoration: none;
-    color: #fff;
+      text-decoration: none;
+      color: #fff;
+    }
+    
+    nav a:hover {
+        color: var(--outerSpace);
   }
   
-  nav a:hover {
-    color: #ff8c00;
-  }
-  
+        .card {
+            background-color: #fff;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            width: 80%;
+            margin: 0 auto;
+          }
