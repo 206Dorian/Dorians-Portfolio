@@ -7,8 +7,6 @@ import NavBar from '../components/NavBar';
 const HomePage = () => {
     return (
         <div>
-            <Header />
-
             <Footer />
         </div>
     );
