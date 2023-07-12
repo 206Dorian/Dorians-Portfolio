@@ -12,8 +12,8 @@ import My100 from './pages/projects/My100';
 import TallTalk from './pages/projects/TallTalk';
 import WeatherDisco from './pages/projects/WeatherDisco';
 import WeiFull from './pages/projects/WeiFull';
-
-
+import NavBar from './components/NavBar';
+import ProfilePage from './pages/ProfilePage'
 
 function App() {
   const [isLoading, setIsLoading] = useState(true);
@@ -22,34 +22,36 @@ function App() {
     // Simulating initialization time
     setTimeout(() => {
       setIsLoading(false);
-    }, 1000);
+    }, 2000);
   }, []);
 
+  const [currentPage, setCurrentPage] = useState('home');
+  const handlePageChange = (page) => {
+    setCurrentPage(page);
+  }
+
+  const renderPage = () => {
+    if (currentPage === 'home') { return <HomePage /> }
+    else if (currentPage === 'projects') { return <PortfolioPage /> }
+    else if (currentPage === 'about') { return <ProfilePage /> }
+
+  }
+
   return (
-    <Router>
-      <div className="App">
-        {isLoading ? (
-          <div className="loading-container">
-            {/* <img src={LoadingImage} className="loading-image" alt="Loading" /> */}
-          </div>
-        ) : (
 
-          <Routes>
-            <Route path="/" element={<HomePage />} />
-            <Route path="/Dorians-Portfolio" element={<HomePage />} />
-            <Route path="/portfolio/art-cart" element={<ArtCart />} />
-            <Route path="/portfolio/didactic-lift" element={<DidacticLift />} />
-            <Route path="/portfolio/my100" element={<My100 />} />
-            <Route path="/portfolio/tall-talk" element={<TallTalk />} />
-            <Route path="/portfolio/weather-disco" element={<WeatherDisco />} />
-            <Route path="/portfolio/wei-full" element={<WeiFull />} />
+    <div className="App">
+      {isLoading ? (
+        <div className="loading-container">
+          {/* <img src={LoadingImage} className="loading-image" alt="Loading" /> */}
+        </div>
+      ) : (
+<>
+        <NavBar setCurrentPage={handlePageChange} />
+        {renderPage()}
+</>
+      )}
+    </div>
 
-          </Routes>
-
-
-        )}
-      </div>
-    </Router>
   );
 }
 
