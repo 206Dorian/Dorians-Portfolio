@@ -6,14 +6,18 @@ const handlePageChange = (page) => {
 }
 
   return (
-    <nav>
-    <button onClick={() => handlePageChange('home')}>Home</button>
-    <br></br>
-    <button onClick={() => handlePageChange('about')}>About</button>
-    <br></br>
-    <button onClick={() => handlePageChange('projects')}>Projects</button>
-    {/* Add more navigation buttons if needed */}
-  </nav>
+    <div className="card-container">
+    <div className="card">
+      <nav>
+        <button onClick={() => handlePageChange('home')}>Home</button>
+        <br />
+        <button onClick={() => handlePageChange('about')}>About</button>
+        <br />
+        <button onClick={() => handlePageChange('projects')}>Projects</button>
+        {/* Add more navigation buttons if needed */}
+      </nav>
+    </div>
+  </div>
   );
 };
 
