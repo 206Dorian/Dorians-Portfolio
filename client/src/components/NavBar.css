@@ -1,6 +1,6 @@
 nav {
-  background-color: var(--teaGreen);
-  color: #fff;
+  background-color: var(--trueTeal);
+  /* color: #fff; */
   padding: 20px;
   border-radius: .5rem;
 }
@@ -20,6 +20,7 @@ nav li {
 nav a {
   text-decoration: none;
   color: var(--auqa);
+  
 }
 
 nav a:hover {
@@ -28,7 +29,7 @@ nav a:hover {
 
 .card {
   background-color: var(--auqa);
-  padding: 20px;
+  padding: 10px;
   width: 80%;
   margin: 0 auto;
   border-radius: .5rem;
@@ -36,13 +37,14 @@ nav a:hover {
 
 button {
   /* Add styles for the buttons here */
-  padding: 10px 20px;
+  padding: 15px 20px;
   border: none;
-  background-color: var(--trueTeal);
-  color: white;
+  background-color: var(--auqa);
+  color: var(--black);
   cursor: pointer;
   transition: background-color 0.3s ease;
   border-radius: .5rem;
+  font-size: 1.5em;
 }
 
 button:hover {
