@@ -11,10 +11,10 @@ const handlePageChange = (page) => {
     <div className="card">
       <nav className="navbar">
         <button onClick={() => handlePageChange('home')}>Home</button>
-        
-        <button onClick={() => handlePageChange('about')}>About</button>
-       
-        <button onClick={() => handlePageChange('projects')}>Projects</button>
+        <br/><br/>
+        <button onClick={() => handlePageChange('about')}>Want to know more about me? This is the button for you!</button>
+        <br/><br/>
+        <button onClick={() => handlePageChange('projects')}>Want to see my Projects, right here sis!</button>
         {/* Add more navigation buttons if needed */}
       </nav>
     </div>
