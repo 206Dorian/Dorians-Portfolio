@@ -14,7 +14,7 @@
 .App {
   text-align: center;
   color: var(--auqa);
-  background-color:var(--white);
+  background-color:var(--dorianGrey);
   min-height: 100vh; /* ensures that .App at least takes up the full height of the viewport */
   display: flex; /* enable flexbox for .App */
   flex-direction: column; /* stacks children of .App vertically */

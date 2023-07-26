@@ -7,6 +7,7 @@ import NavBar from '../components/NavBar';
 const HomePage = () => {
     return (
         <div>
+            <br/>
             <Footer />
         </div>
     );
