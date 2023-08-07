@@ -21,8 +21,8 @@
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
-    "start": "serve -s build", 
-    "build": "react-scripts build",
+    "start": "node srv/index.js", 
+    "build": "cd client && npm install && npm run build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "develop": "react-scripts start"
