@@ -5,10 +5,13 @@
   "dependencies": {
     "react": "^17.0.2",
     "react-dom": "^17.0.2"
+    
+   
   },
   "scripts": {
     "predeploy": "npm run build",
     "start": "react-scripts start",
+    "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "develop": "react-scripts start"
@@ -30,5 +33,5 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  } 
 }
