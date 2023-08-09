@@ -1,0 +1,32 @@
+@import '../../App.css';
+
+.project-card {
+  background-color: var(--white);
+  color: var(--outerSpace);
+  /* Other project-specific styles */
+}
+
+/* Root-level colors */
+:root {
+  --trueTeal: #17334E;
+  --gulfCoast: #3C8E9D;
+  --auqa: #4FC7CC;
+  --outerSpace: #454A4B;
+  --dorianGrey: #99A0A9;
+  --chartreuse: #DFFF00;
+  --teaGreen: #C1D2A0;
+  --black: #000000;
+  --white: #FFFFFF;
+}
+
+.project-card {
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    /* Other project-specific styles */
+  }
+
+body {
+  font-family: 'Encode Sans Semi Condensed', sans-serif;
+}
+
+
