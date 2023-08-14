@@ -9,6 +9,7 @@ const WeatherDisco = () => {
         
       WeatherDisco
       </a>
+      <p>Get your local weather here</p>
 </h1>
 
       </>

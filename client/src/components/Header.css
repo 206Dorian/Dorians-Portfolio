@@ -39,6 +39,7 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: var(--trueTeal);
+  
 }
 
 
@@ -56,13 +57,3 @@
   }
 }
 
-h1 {
-  border: 6px solid var(--teaGreen);
-  padding: 15px;
-  background-color: var(--trueTeal);
-  color: var(--auqa);
-  border-radius: .5rem;
-  width: 60%; 
-  margin: 0 auto;
-  padding: 10px;
-}

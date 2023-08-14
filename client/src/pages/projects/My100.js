@@ -1,18 +1,17 @@
-import React from 'react'
+import React from 'react';
+import './My100.css'; // Import your project-specific CSS file
 
 const My100 = () => {
   return (
-    <>
-    <h1>
-    <a href="" target="_blank" rel="noreferrer">
-        
-      </a>
-
-      My 100 Placeholder
-    </h1>
-
-    </>
-  )
+    <div className="project-card">
+      <h1>
+        <a href="#" target="_blank" rel="noreferrer">
+          My 100 Placeholder
+        </a>
+        <p>TBD</p>
+      </h1>
+    </div>
+  );
 }
 
-export default My100
+export default My100;
