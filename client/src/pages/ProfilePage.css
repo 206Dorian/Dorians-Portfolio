@@ -11,7 +11,10 @@
   
   }
   
-  
+  .about-me {
+    color: var(--trueTeal);
+
+  }
   
   .App {
     text-align: center;
