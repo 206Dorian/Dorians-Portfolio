@@ -14,7 +14,7 @@ const handlePageChange = (page) => {
         <br/><br/>
         <button onClick={() => handlePageChange('about')}>Want to know more about me? This is the button for you!</button>
         <br/><br/>
-        <button onClick={() => handlePageChange('projects')}>Want to see my Projects, right here sis!</button>
+        <button onClick={() => handlePageChange('projects')}>Want to see my Projects, right here!</button>
         {/* Add more navigation buttons if needed */}
       </nav>
     </div>

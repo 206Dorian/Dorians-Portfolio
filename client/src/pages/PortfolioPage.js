@@ -6,12 +6,14 @@ import My100 from './projects/My100';
 import TallTalk from './projects/TallTalk';
 import WeatherDisco from './projects/WeatherDisco';
 import WeiFull from './projects/WeiFull'
+import Footer from '../components/Footer';
 
 const PortfolioPage = () => {
   return (
     <div>
-        <h2>MY PROJECTS</h2>
-        
+      <br></br>
+        <h1>MY PROJECTS</h1>
+        <br></br>
         <WeiFull/>
         <br />
         <WeatherDisco/>
@@ -23,10 +25,9 @@ const PortfolioPage = () => {
         <DidacticLift/>
         <br />
         <ArtCart/>
-      
-        <h2>MY RESUME</h2>
-        <a href="/assets/DorianResume.pdf" target="_blank" rel="noreferrer">View my resume</a>
-
+      <br></br>
+      <Footer/>
+       
     </div>
   )
 }
