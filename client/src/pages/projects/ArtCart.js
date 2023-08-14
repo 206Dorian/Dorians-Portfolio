@@ -2,13 +2,13 @@ import React from 'react';
 
 const ArtCart = () => {
   return (
-    <>
-<h2>
+    <div className="project-card art-cart-card">
+<h1>
       <a href="https://art-cart-gui-guys-production.herokuapp.com/login" target="_blank" rel="noreferrer">
         ArtCart
       </a>
-      </h2>
-    </>
+      </h1>
+    </div>
   );
 };
 

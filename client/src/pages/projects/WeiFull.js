@@ -4,11 +4,11 @@ import './WeiFull.css'; // Import the project-specific CSS file
 const WeiFull = () => {
   return (
     <div className="project-card">
-      <h3>
+      <h1>
         <a href="https://ruxinqu.github.io/wei-full/" target="_blank" rel="noreferrer">
           Weifull
         </a>
-      </h3>
+      </h1>
     </div>
   );
 };

@@ -57,9 +57,12 @@
 }
 
 h1 {
-  border: 3px solid var(--teaGreen);
-  padding: 10px;
+  border: 6px solid var(--teaGreen);
+  padding: 15px;
   background-color: var(--trueTeal);
   color: var(--auqa);
   border-radius: .5rem;
+  width: 60%; 
+  margin: 0 auto;
+  padding: 10px;
 }
