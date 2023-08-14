@@ -6,8 +6,7 @@ const Footer = () => {
     <div>
       <footer className="footer">
        
-        If you like this app and want to give me a job? <br></br>
-        Great, here are my links!
+        If you like this app and want to give me a job, <br></br> here are my links!
         <br/><br/>
 
        
