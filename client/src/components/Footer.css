@@ -4,10 +4,10 @@
   width: 75%;  /* set width to 100% */
   
   text-align: center;
-  color: var(--white);
+  color: var(--aqua);
   border-radius: .5rem;
   clear: both;
-  border: 10px solid var(--auqa);
+  border: 10px solid var(--white);
   border-radius: 20px;
   font-size: 25px;
   margin-top: 10px;
