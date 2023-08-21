@@ -2,8 +2,8 @@
   --trueTeal: #17334E;
   --gulfCoast: #3C8E9D;
   --auqa: #4FC7CC;
-  --outerSpace: #525454;
-  --dorianGrey: #bebfc2;
+  --outerSpace: #6b6d6d;
+  --dorianGrey: #b1b1b1;
   --chartreuse: #DFFF00;
   --teaGreen: #C1D2A0;
   --black: #000000;
@@ -69,7 +69,7 @@ body {
 }
 
 h1 {
-  border: 6px solid var(--teaGreen);
+  border: 6px solid var(--white);
   padding: 15px;
   background-color: var(--trueTeal);
   color: var(--auqa);

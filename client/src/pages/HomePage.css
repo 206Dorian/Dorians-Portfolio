@@ -1,16 +1,4 @@
-:root {
-    --trueTeal: #17334E;
-    --gulfCoast: #3C8E9D;
-    --auqa: #4FC7CC;
-    --outerSpace: #454A4B;
-    --dorianGrey: #99A0A9;
-    --chartreuse: #DFFF00;
-    --teaGreen: #C1D2A0;
-    --black: #000000;
-    --white: #FFFFFF;
-  
-  }
-  
+
   body {
     font-family: 'Bruno Ace SC', cursive;
   }
@@ -21,7 +9,7 @@
   .App {
     text-align: center;
     color: var(--auqa);
-    background-color:var(--dorianGrey) 
+    background-color:var(--out) 
   }
     
   .App-logo {
