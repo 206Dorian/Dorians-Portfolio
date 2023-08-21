@@ -6,7 +6,8 @@ const Profile = () => {
     return (
         <main>
             <div className="main-content">
-                <img className="profile-image" src="/assets/posed.jpg" alt="A posed picture" />
+            <img className="profile-image" src="/assets/posed.jpg" alt="A posed picture" />
+
                 
                 <div className="about-me"> 
                     <h2>A bit more about me and my experience</h2>
