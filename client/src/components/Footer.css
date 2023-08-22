@@ -1,26 +1,30 @@
 .footer {
   background-color: var(--trueTeal
   );
-  width: 75%;  /* set width to 100% */
+  width: 65%;  /* set width to 100% */
   
   text-align: center;
   color: var(--aqua);
   border-radius: .5rem;
   clear: both;
-  border: 10px solid var(--white);
+  border: 7px solid var(--white);
   border-radius: 20px;
   font-size: 25px;
-  margin-top: 10px;
-  margin-bottom: 0px;
+  margin-top: 20px;
+  margin-bottom: 20px;
   margin: auto;
   
   font-family: 'Montserrat Subrayada', sans-serif;
 
 }
 
-/* :hover {
+footer a:hover {
   background-color: var(--auqa);
   color: var(--white);
-} */
+}
 
-  
+footer a {
+  color: initial; 
+  text-decoration: none; 
+  transition: color 0.3s ease; /* smooths transition for the color change */
+}

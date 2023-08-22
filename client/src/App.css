@@ -24,7 +24,7 @@
 }
   
 .App-logo {
-  height: 40vmin;
+  height: 80vmin;
   pointer-events: none;
 }
 
@@ -50,22 +50,7 @@
 }
 
 a:visited {
-  color: var(--auqa); 
-}
-
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-
-  to {
-    transform: rotate(360deg);
-  }
-}
-
-body {
-  font-family: 'Encode Sans Semi Condensed', sans-serif;
+  color: var(--teaGreen); 
 }
 
 h1 {
@@ -74,7 +59,7 @@ h1 {
   background-color: var(--trueTeal);
   color: var(--auqa);
   border-radius: .5rem;
-  width: 60%; 
+  width: 90%; 
   margin: 0 auto;
-  padding: 10px;
+  padding: 20px;
 }

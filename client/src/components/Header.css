@@ -1,7 +1,3 @@
-
-
-
-
 .App {
   text-align: center;
   color: var(--auqa);
@@ -20,8 +16,9 @@
 }
 
 .App-header {
-  background-color: var(--dorianGrey);
-  min-height: 100vh;
+  
+    width: 100%;
+  /* min-height: 100vh; */
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -31,10 +28,7 @@
   
 }
 
-
-.App-link {
-  color: var(--chartreuse);
+body, .App-header {
+  margin: 0;
+  padding: 0;
 }
-
-
-
