@@ -16,26 +16,18 @@ const Profile = () => {
                     <h2>A bit more about me and my experience</h2>
                     <br />
 
-                    <p>Im an interior designer turned web developer, I've lived a lot of places and I call the Pacific Northwest home now.
-                    </p>
+                    <h2>About Me</h2>
+<p>
+    I transitioned from a career in interior design to web development. Throughout my diverse experiences, I've called many places home, but the Pacific Northwest resonates the most with me.
+</p>
 
-                    <p>
-                        My interior design experience has taught me so much about asthetics.
-                        <br />
-                        Working with architects and having to make things happen in a rather abstract way really prepared me for the world of web development.
-                        Managing projects, clients and creating something from nothing.
-                        <p />
+<p>
+    Interior design sharpened my aesthetics and gave me the chance to work closely with architects. This collaborative and often abstract approach prepared me for web development's challenges. Managing projects, handling clients, and crafting something from scratch have given me a comprehensive understanding of both front and back end development.
+</p>
 
-                        <p>
-
-                        </p>
-                        All this has really helped me understand front end and back end together
-                    </p>
-
-                    <p>
-
-                        My mother was very driven and very creative, my father was an engineer, so I'm always working with both sides of my brain.
-                    </p>
+<p>
+    With a mother who was creatively driven and an engineer father, I've always balanced both creative and logical perspectives in my endeavors.
+</p>
 
                     <p>
                         a bitmore
