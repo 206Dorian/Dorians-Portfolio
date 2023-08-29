@@ -15,7 +15,7 @@ const Profile = () => {
                 <div className="about-me">
                     <h2>A bit more about me and my experience</h2>
                     <br />
-
+<br></br> <br></br>
                     <h2>About Me</h2>
 <p>
     I transitioned from a career in interior design to web development. Throughout my diverse experiences, I've called many places home, but the Pacific Northwest resonates the most with me.
