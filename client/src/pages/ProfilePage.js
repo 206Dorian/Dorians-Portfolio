@@ -1,15 +1,15 @@
 import React from 'react';
 import './ProfilePage.css';
 import Footer from '../components/Footer';
+import posed from '../assets/posed.jpg';
+
 
 
 const Profile = () => {
     return (
         <main>
             <div className="main-content">
-                {/* <img className="profile-image" src={posed} alt="A posed picture" /> */}
-                <img className="profile-image" src="/assets/posed.jpg" alt="A picture" />
-
+            <img className="profile-image" src={posed} alt="A posed picture" />
 
 
                 <div className="about-me">
