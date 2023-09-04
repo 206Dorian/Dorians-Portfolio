@@ -1,11 +1,14 @@
-.project {
+/* .project {
     margin: 20px;
     border: 1px solid black;
     padding: 10px;
     text-align: center;
+    max-width: 250px;   
+    width: 100%;       
 }
 
+
 .project img {
-    max-width: 100%;
+    max-width: 90%;
     height: auto;
-}
+} */
