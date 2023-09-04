@@ -19,8 +19,8 @@
   display: flex; /* enable flexbox for .App */
   flex-direction: column; 
 
-  font-family: 'Montserrat Subrayada', sans-serif;
-
+    font-family: 'Josefin Sans', sans-serif;
+  font-weight: 400;
 }
   
 .App-logo {
@@ -53,6 +53,7 @@ a:visited {
   color: var(--teaGreen); 
 }
 
+
 h1 {
   border: 6px solid var(--white);
   padding: 15px;
@@ -62,4 +63,6 @@ h1 {
   width: 90%; 
   margin: 0 auto;
   padding: 20px;
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 700;
 }

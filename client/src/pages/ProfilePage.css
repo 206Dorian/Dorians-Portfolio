@@ -50,6 +50,10 @@
   /* This provides spacing between the items */
 }
 
+p {
+  font-size: 20px;
+}
+
 .profile-image {
   flex: 1;
   box-shadow: 0 0 0 5px var(--trueTeal);
