@@ -1,6 +1,7 @@
 .about-me {
   color: var(--trueTeal);
       flex: 2; /* This makes the text area twice as wide as the image */
+      font-family: 'Shadows Into Light', cursive;
 }
 
 
