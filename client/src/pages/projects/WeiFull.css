@@ -5,8 +5,7 @@
   color: var(--outerSpace);
 
   overflow: hidden;
-  /* This will hide any overflowing content */
-  /* Add other necessary styles like padding, margin, etc. */
+  
 
   background-color: var(--primary-color);
   color: var(--secondary-color);
@@ -14,7 +13,7 @@
 }
 
 .project-card img {
-  max-width: 20%;
+  max-width: 25%;
   /* It ensures the image doesn't go beyond the card's width */
   height: auto;
   /* To maintain the aspect ratio */

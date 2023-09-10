@@ -1,0 +1,5 @@
+@import '../../App.css';
+
+.project-card img.weather-disco-image {
+    max-width: 15%;
+}

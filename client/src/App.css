@@ -50,7 +50,7 @@
 }
 
 a:visited {
-  color: var(--teaGreen); 
+  color: var(--auqa); 
 }
 
 
@@ -65,4 +65,9 @@ h1 {
   padding: 20px;
     font-family: 'Philosopher', sans-serif;
   font-weight: 700;
+}
+
+.project-card {
+  max-width: 50%;  /* Or whatever width you desire */
+  margin: 20px auto; /* This will center the card and provide vertical spacing */
 }

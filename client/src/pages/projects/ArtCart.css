@@ -1,9 +1,12 @@
-/* ArtCart.css */
+@import '../../App.css';
+
 .art-cart-card {
   background-color: var(--white);
   color: var(--outerSpace);
   overflow: hidden;
 
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
   /* Add other necessary styles like padding, margin, etc. */
 }
 
@@ -13,3 +16,9 @@
   display: block;
   margin: 0 auto;
 }
+
+.project-card {
+  max-width: 50%;  /* Or whatever width you desire */
+  margin: 20px auto; /* This will center the card and provide vertical spacing */
+}
+
