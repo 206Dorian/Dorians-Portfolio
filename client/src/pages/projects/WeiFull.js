@@ -9,7 +9,7 @@ const WeiFull = () => {
       <h1>
         <a href="https://ruxinqu.github.io/wei-full/" target="_blank" rel="noreferrer">
           Weifull
-        <img src={bread} alt="Description of my project" />
+        <img src={bread} alt="Loaf of bread" />
         </a>
         <p>Food Finder on the go</p>
       </h1>
