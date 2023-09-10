@@ -14,7 +14,7 @@
 }
 
 .project-card img {
-  max-width: 100%;
+  max-width: 20%;
   /* It ensures the image doesn't go beyond the card's width */
   height: auto;
   /* To maintain the aspect ratio */

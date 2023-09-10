@@ -1,8 +1,15 @@
 /* ArtCart.css */
 .art-cart-card {
-    background-color: #F3D3A7;
-    border: 1px solid #E0A65B;
-    padding: 20px;
-    
-  }
-  
+  background-color: var(--white);
+  color: var(--outerSpace);
+  overflow: hidden;
+
+  /* Add other necessary styles like padding, margin, etc. */
+}
+
+.art-cart-card img {
+  max-width: 20%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
