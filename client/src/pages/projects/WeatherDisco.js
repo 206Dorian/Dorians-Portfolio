@@ -1,6 +1,7 @@
 import React from 'react'
 import Disco from '../../assets/Disco.jpg';
 
+
 const WeatherDisco = () => {
   return (
     <div className="project-card">
@@ -10,13 +11,9 @@ const WeatherDisco = () => {
         
       WeatherDisco
       <img src={Disco} alt="WeatherDisco project preview" />
-
       </a>
-
-      <h6>Get your local weather here! Any city, anytime. </h6>
-
+      <h6>Get your local weather here! Any city,  Any Time. </h6>
 </h1>
-
       </div>
   )
 }
