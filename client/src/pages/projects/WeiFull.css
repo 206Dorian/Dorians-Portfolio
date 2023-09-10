@@ -3,19 +3,29 @@
 .project-card {
   background-color: var(--white);
   color: var(--outerSpace);
+
+  overflow: hidden;
+  /* This will hide any overflowing content */
+  /* Add other necessary styles like padding, margin, etc. */
+
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
   /* Other project-specific styles */
 }
 
-
-
-.project-card {
-    background-color: var(--primary-color);
-    color: var(--secondary-color);
-    /* Other project-specific styles */
-  }
-
-body {
-  font-family: 'Encode Sans Semi Condensed', sans-serif;
+.project-card img {
+  max-width: 100%;
+  /* It ensures the image doesn't go beyond the card's width */
+  height: auto;
+  /* To maintain the aspect ratio */
+  display: block;
+  /* To remove any extra line breaks around the image */
+  margin: 0 auto;
+  /* To center the image in the card if it's smaller than the card's width */
 }
+
+
+
+
 
 

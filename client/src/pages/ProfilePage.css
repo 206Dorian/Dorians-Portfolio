@@ -1,7 +1,7 @@
 .about-me {
   color: var(--trueTeal);
       flex: 2; /* This makes the text area twice as wide as the image */
-      font-family: 'Shadows Into Light', cursive;
+      font-family: 'Philosopher', sans-serif;
 }
 
 
@@ -53,13 +53,14 @@
 
 p {
   font-size: 20px;
+  font-family: 'Philosopher', sans-serif;
 }
 
 .profile-image {
   flex: 1;
   box-shadow: 0 0 0 5px var(--trueTeal);
   /* border: 5px solid var(--white); */
-  max-width: 30%;
+  max-width: 28%;
   margin: 30px;
   border-radius: .5rem;
   /* ensures your image doesn't overflow its container */

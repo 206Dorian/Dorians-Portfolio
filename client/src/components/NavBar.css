@@ -44,6 +44,7 @@ button {
   transition: background-color 0.3s ease;
   border-radius: .5rem;
   font-size: 1.2em;
+  font-family: 'Philosopher', sans-serif;
 }
 
 button:hover {
