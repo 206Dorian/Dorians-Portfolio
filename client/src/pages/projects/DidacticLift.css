@@ -1,0 +1,43 @@
+@import '../../App.css';
+
+/* Parent container for Didactic Lift */
+.didactic-lift-card {
+  background-color: var(--white);
+  color: var(--outerSpace);
+
+}
+/* Styles for the project title */
+.didactic-lift-card h1 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+/* Styles for the project description */
+.didactic-lift-card p {
+  font-size: 16px;
+  margin-top: 5px;
+}
+
+/* Styles for the project image */
+.didactic-lift-card img {
+  max-width: 10%;
+  height: auto;
+  display: block;
+  
+}
+
+/* If you have a link or button for the project, style it here */
+.didactic-lift-card a {
+  display: inline-block;
+  padding: 10px 15px;
+  background-color: var(--primary-color);
+  color: var(--white);
+  border-radius: 5px;
+  text-decoration: none;
+  margin-top: 15px;
+}
+
+.didactic-lift-card a:hover {
+  background-color: var(--secondary-color);
+}
+

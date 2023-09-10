@@ -3,7 +3,7 @@ import Disco from '../../assets/Disco.jpg';
 
 const WeatherDisco = () => {
   return (
-    <>
+    <div className="project-card">
 <h1>
 
 <a href="https://206dorian.github.io/weather-disco/" target="_blank" rel="noreferrer">
@@ -15,7 +15,7 @@ const WeatherDisco = () => {
       </a>
 </h1>
 
-      </>
+      </div>
   )
 }
 

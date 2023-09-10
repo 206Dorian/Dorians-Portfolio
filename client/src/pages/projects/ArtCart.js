@@ -6,7 +6,7 @@ import './ArtCart.css';
 
 const ArtCart = () => {
   return (
-    <div className="art-cart-card">
+    <div className="project-card">
 <h1>
       <a href="https://art-cart-gui-guys-production.herokuapp.com/login" target="_blank" rel="noreferrer">
         ArtCart

@@ -68,6 +68,6 @@ h1 {
 }
 
 .project-card {
-  max-width: 50%;  /* Or whatever width you desire */
-  margin: 20px auto; /* This will center the card and provide vertical spacing */
+  max-width: 60%;  /* Or whatever width you desire */
+  margin: 10px auto; /* This will center the card and provide vertical spacing */
 }
