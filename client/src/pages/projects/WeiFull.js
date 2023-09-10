@@ -11,7 +11,8 @@ const WeiFull = () => {
           Weifull
         <img src={bread} alt="Loaf of bread" />
         </a>
-        <p>Food Finder on the go</p>
+        <h6>Food Finder on the go, cant decide whether to go out or stay in?  
+           We've got you covered, find a restaurant nearby or look up recipes from things you already have in your refridgerator.</h6>
       </h1>
     </div>
   );

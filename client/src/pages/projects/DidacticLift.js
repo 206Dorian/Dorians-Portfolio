@@ -10,11 +10,11 @@ const DidacticLift = () => {
 
      <a href="https://didactic-lift.herokuapp.com/" target="_blank" rel="noreferrer">
       Didactic Lift
-      <br></br>
+      
       <img src={robot} alt="TallTalk project preview" />
       </a>
 
-      <p>A bit about DidacticLift</p>
+      <h6>A bit about DidacticLift, a workout app to help you target any muscle in your body and keep track of your favorites </h6>
 
       </h1>
     </div>

@@ -8,7 +8,7 @@ const My100 = () => {
         <a href="#" target="_blank" rel="noreferrer">
           My 100 Placeholder
         </a>
-        <p>TBD</p>
+        <p>Under Construction </p>
       </h1>
     </div>
   );

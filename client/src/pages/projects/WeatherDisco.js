@@ -13,8 +13,8 @@ const WeatherDisco = () => {
 
       </a>
 
-      <p>Get your local weather here</p>
-      
+      <h6>Get your local weather here! Any city, anytime. </h6>
+
 </h1>
 
       </div>
