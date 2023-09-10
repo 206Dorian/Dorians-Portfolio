@@ -7,9 +7,11 @@ const TallTalk = () => {
       <h1>
         <a href="https://tall-talk-1dfa9fc02377.herokuapp.com/" target="_blank" rel="noreferrer">
           TallTalk
-      <p>A bit about Tall Talk</p>
       <img src={questions} alt="TallTalk project preview" />
         </a>
+
+      <p>A bit about Tall Talk</p>
+      
       </h1>
     </div>
   );

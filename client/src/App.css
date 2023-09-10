@@ -19,8 +19,6 @@
   display: flex; /* enable flexbox for .App */
   flex-direction: column; 
 
-    font-family: 'Josefin Sans', sans-serif;
-  font-weight: 400;
 }
   
 .App-logo {
@@ -68,6 +66,6 @@ h1 {
 }
 
 .project-card {
-  max-width: 60%;  /* Or whatever width you desire */
-  margin: 10px auto; /* This will center the card and provide vertical spacing */
+  max-width: 60%;  
+  margin: 10px auto; 
 }

@@ -9,10 +9,12 @@ const WeatherDisco = () => {
 <a href="https://206dorian.github.io/weather-disco/" target="_blank" rel="noreferrer">
         
       WeatherDisco
-      <p>Get your local weather here</p>
       <img src={Disco} alt="WeatherDisco project preview" />
 
       </a>
+
+      <p>Get your local weather here</p>
+      
 </h1>
 
       </div>

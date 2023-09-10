@@ -10,9 +10,11 @@ const ArtCart = () => {
 <h1>
       <a href="https://art-cart-gui-guys-production.herokuapp.com/login" target="_blank" rel="noreferrer">
         ArtCart
-      <p>A bit about Artcart</p>
+        
       <img src={artCartImage} alt="Screenshot of ArtCart project" />
       </a>
+
+      <p>A bit about Artcart</p>
 
       </h1>
     </div>
