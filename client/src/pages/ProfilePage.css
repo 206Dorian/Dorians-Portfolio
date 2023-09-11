@@ -52,16 +52,16 @@
 }
 
 p {
-  font-size: 20px;
-  font-family: 'Philosopher', sans-serif;
+  font-size: 25px;
+  margin: 20px;
 }
 
 .profile-image {
   flex: 1;
-  box-shadow: 0 0 0 5px var(--trueTeal);
+  box-shadow: 0 0 0 7px var(--trueTeal);
   /* border: 5px solid var(--white); */
-  max-width: 28%;
-  margin: 30px;
+  max-width: 27%;
+  margin: 40px;
   border-radius: .5rem;
   /* ensures your image doesn't overflow its container */
 }
