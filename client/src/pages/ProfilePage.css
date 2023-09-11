@@ -51,6 +51,11 @@
   /* This provides spacing between the items */
 }
 
+h2 {
+  font-size: 40px;
+  
+}
+
 p {
   font-size: 25px;
   margin: 20px;
