@@ -14,11 +14,11 @@ const PortfolioPage = () => {
       <br></br>
         <h1>MY PROJECTS</h1>
         <br></br>
+        <TallTalk/>
+        <br />
         <WeiFull/>
         <br />
         <WeatherDisco/>
-        <br />
-        <TallTalk/>
         <br />
         <My100/>
         <br />

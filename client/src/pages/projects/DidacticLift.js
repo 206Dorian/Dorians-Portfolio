@@ -14,7 +14,7 @@ const DidacticLift = () => {
       <img src={robot} alt="TallTalk project preview" />
       </a>
 
-      <h6>A bit about DidacticLift, a workout app to help you target any muscle in your body and keep track of your favorites </h6>
+      <h6>DidacticLift, a workout app to help you target any muscle in your body and keep track of your favorites. </h6>
 
       </h1>
     </div>
