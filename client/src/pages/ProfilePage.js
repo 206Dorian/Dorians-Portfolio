@@ -30,7 +30,7 @@ const Profile = () => {
                     </p>
 
                     <p>
-                        I lean towards a chic aesthetic and am also drawn to water so you'll see a lot of clean lines and blue tones in my work. While i've done a lot of other color palletes for clients & projects over the years and tend to like collaborating, youll see a more sophisticated, clean look in my solo projects.
+                    My aesthetic gravitates towards elegant & chic, complemented by my affinity for water elements. This results in predominant clean lines and serene blue tones in my creations. Over the years, I've collaborated with a myriad of clients, embracing diverse color palettes and styles. I pride myself on my ability to seamlessly integrate into any team and bring projects to fruition through cohesive collaboration. Yet, when I embark on solo endeavors, a distinct touch of sophistication and minimalist elegance shines through.
                     </p>
 
                     <p>
