@@ -30,6 +30,10 @@ const Profile = () => {
                     </p>
 
                     <p>
+                        I tend to lean towards a chic aesthetic and am also drawn to water so you'll seea lot of clean lines and blue tones in my work. While i've done a lot of other color palletes for clients& projects over the years, youll see a more sophisticated, clean look here.
+                    </p>
+
+                    <p>
                         MORE
                     </p>
 
