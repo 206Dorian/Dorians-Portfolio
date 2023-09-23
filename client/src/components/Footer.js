@@ -18,6 +18,8 @@ const Footer = () => {
         <a href="https://www.linkedin.com/in/dorian-douglas-birch-70695b4b/">LinkedIn</a>
         <br/>
         <a href="https://dorians-portfolio-d5232a4cbe01.herokuapp.com/">Portfolio</a>
+
+        
         <br></br>
         <br/>
       </footer>
