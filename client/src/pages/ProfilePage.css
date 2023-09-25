@@ -64,7 +64,7 @@ p {
 .profile-image {
   flex: 1;
   box-shadow: 0 0 0 6px var(--white);
-  bordepx solid var(--trueTeal);
+  border: 15px solid var(--trueTeal);
   max-width: 27%;
   margin: 40px;
   border-radius: .5rem;
