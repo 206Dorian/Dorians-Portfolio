@@ -2,7 +2,8 @@ import React from 'react';
 import './ProfilePage.css';
 import Footer from '../components/Footer';
 import posed from '../assets/posed.jpg';
-
+import Typist from 'react-typist';
+import 'react-typist/dist/Typist.css';
 
 
 const Profile = () => {
@@ -13,8 +14,9 @@ const Profile = () => {
 
 
                 <div className="about-me">
-                    <h2>A bit more about me and my experience</h2>
-
+                    <Typist cursor={{ show: false }}>
+                        <h2>A bit more about me and my experience</h2>
+                    </Typist>
                     <br></br>
 
                     <p>
