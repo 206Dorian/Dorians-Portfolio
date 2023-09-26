@@ -1,0 +1,10 @@
+body {
+    background-color: var(--dorianGrey);
+    color: #333;
+  }
+  
+  /* dark-mode.css */
+  body.dark-mode {
+    background-color: var(--black);
+    color: #fff;
+  }
