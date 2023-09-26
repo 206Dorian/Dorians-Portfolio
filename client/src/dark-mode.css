@@ -1,10 +1,16 @@
-body {
-    background-color: var(--dorianGrey);
-    color: #333;
-  }
-  
-  /* dark-mode.css */
+ 
   body.dark-mode {
-    background-color: var(--black);
+    background-color: #333;
     color: #fff;
   }
+  
+
+.dark-mode-btn {
+    background-color: #FFF;
+    color: #000;
+}
+
+.dark-mode-btn.active {
+    background-color: #000;
+    color: #FFF;
+}

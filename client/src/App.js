@@ -4,8 +4,6 @@ import Header from './components/Header';
 
 import './App.css';
 import './dark-mode.css';
-
-
 import HomePage from './pages/HomePage';
 import PortfolioPage from './pages/PortfolioPage';
 import ArtCart from './pages/projects/ArtCart';
@@ -23,13 +21,14 @@ function App() {
     const [currentPage, setCurrentPage] = useState('home');
 
     const toggleDarkMode = () => {
-      setDarkMode(!darkMode);
-      if (darkMode) {
-          document.body.classList.add('dark-mode');
-      } else {
+      if (document.body.classList.contains('dark-mode')) {
           document.body.classList.remove('dark-mode');
+          setDarkMode(false);
+      } else {
+          document.body.classList.add('dark-mode');
+          setDarkMode(true);
       }
-  };
+  }
 
     useEffect(() => {
         // Simulating initialization time
@@ -65,7 +64,7 @@ function App() {
                     {renderPage()}
                     <button 
     onClick={toggleDarkMode} 
-    style={{ backgroundColor: darkMode ? '#000' : '#FFF', color: darkMode ? '#FFF' : '#000' }}
+    className={`dark-mode-btn ${darkMode ? 'active' : ''}`}
 >
     Toggle Dark Mode
 </button>
