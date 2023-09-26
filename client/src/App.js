@@ -21,13 +21,12 @@ function App() {
     const [currentPage, setCurrentPage] = useState('home');
 
     const toggleDarkMode = () => {
-      if (document.body.classList.contains('dark-mode')) {
-          document.body.classList.remove('dark-mode');
-          setDarkMode(false);
-      } else {
-          document.body.classList.add('dark-mode');
-          setDarkMode(true);
-      }
+      if (darkMode) {
+        document.body.classList.add('dark-mode');
+    } else {
+        document.body.classList.remove('dark-mode');
+    }
+    
   }
 
     useEffect(() => {
