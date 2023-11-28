@@ -21,21 +21,18 @@ function App() {
     const [currentPage, setCurrentPage] = useState('home');
 
     const toggleDarkMode = () => {
-      if (darkMode) {
-        document.body.classList.add('dark-mode');
-    } else {
-        document.body.classList.remove('dark-mode');
+        setDarkMode(!darkMode); // Toggle the darkMode state
     }
     
-  }
-
     useEffect(() => {
-        // Simulating initialization time
-        setTimeout(() => {
-            setIsLoading(false);
-        }, 2000);
-    }, []);
-
+        // Apply or remove the class based on the darkMode state
+        if (darkMode) {
+            document.body.classList.add('dark-mode');
+        } else {
+            document.body.classList.remove('dark-mode');
+        }
+    }, [darkMode]); // Run this effect when darkMode state changes
+    
     const handlePageChange = (page) => {
         setCurrentPage(page);
     };
