@@ -3,7 +3,6 @@ import React, { useState, useEffect } from 'react';
 import Header from './components/Header';
 
 import './App.css';
-import './dark-mode.css';
 import HomePage from './pages/HomePage';
 import PortfolioPage from './pages/PortfolioPage';
 import ArtCart from './pages/projects/ArtCart';
@@ -17,22 +16,15 @@ import ProfilePage from './pages/ProfilePage';
 
 function App() {
     const [isLoading, setIsLoading] = useState(true);
-    const [darkMode, setDarkMode] = useState(false);
     const [currentPage, setCurrentPage] = useState('home');
 
-    const toggleDarkMode = () => {
-        setDarkMode(!darkMode); // Toggle the darkMode state
-    }
-    
     useEffect(() => {
-        // Apply or remove the class based on the darkMode state
-        if (darkMode) {
-            document.body.classList.add('dark-mode');
-        } else {
-            document.body.classList.remove('dark-mode');
-        }
-    }, [darkMode]); // Run this effect when darkMode state changes
-    
+        // Simulating initialization time
+        setTimeout(() => {
+            setIsLoading(false);
+        }, 2000);
+    }, []);
+
     const handlePageChange = (page) => {
         setCurrentPage(page);
     };
@@ -54,16 +46,9 @@ function App() {
                 </div>
             ) : (
                 <>
-                    
                     <Header /> 
                     <NavBar setCurrentPage={handlePageChange} />
                     {renderPage()}
-                    <button 
-    onClick={toggleDarkMode} 
-    className={`dark-mode-btn ${darkMode ? 'active' : ''}`}
->
-    Toggle Dark Mode
-</button>
                 </>
             )}
         </div>
