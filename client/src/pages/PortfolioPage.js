@@ -7,7 +7,7 @@ import TallTalk from './projects/TallTalk';
 import WeatherDisco from './projects/WeatherDisco';
 import WeiFull from './projects/WeiFull'
 import Footer from '../components/Footer';
-import '../dark-mode.css';
+
 
 
 const PortfolioPage = () => {
